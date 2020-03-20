@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "..\\..\\nav.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\r\n  let burgerActive = false\r\n  let activeMenu = \"home\"\r\n</script>\r\n<nav class=\"navbar is-fixed-top\" role=\"navigation\" aria-label=\"main navigation\">\r\n  <div class=\"container is-flex-desktop\">\r\n    <div class=\"navbar-brand\">\r\n      <a class=\"navbar-item\" href=\"#/\">\r\n        <img src=\"https://bulma.io/images/bulma-logo.png\" alt=\"brand pic\" width=\"112\" height=\"28\">\r\n      </a>\r\n      <span class:is-active={burgerActive} role=\"button\" class=\"navbar-burger\" aria-label=\"menu\" aria-expanded=\"false\" on:click={() =>{burgerActive = !burgerActive}}>\r\n        <span aria-hidden=\"true\"></span>\r\n        <span aria-hidden=\"true\"></span>\r\n        <span aria-hidden=\"true\"></span>\r\n      </span>\r\n    </div>\r\n    <div class=\"navbar-menu\" class:is-active={burgerActive} on:click={()=>{burgerActive = false}}>\r\n      <div class=\"navbar-end\">\r\n          <a href=\"#/\" class=\"navbar-item\" class:navActive={activeMenu == \"home\"} on:click={() => {activeMenu=\"home\"}}>Home</a>\r\n          <a href=\"#/about\" class=\"navbar-item\" class:navActive={activeMenu == \"about\"} on:click={() => {activeMenu=\"about\"}}>About</a>\r\n          <a href=\"#/booking\" class=\"navbar-item\" class:navActive={activeMenu == \"booking\"} on:click={() => {activeMenu=\"booking\"}}>Booking</a>\r\n          <a href=\"#/faq\" class=\"navbar-item\" class:navActive={activeMenu == \"faq\"} on:click={() => {activeMenu=\"faq\"}}>FAQ</a>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</nav>\r\n\r\n<style>\r\n  .navActive {\r\n    color: blue;\r\n    font-weight: 600;\r\n  }\r\n  .navbar-item:active {\r\n    color: blue;\r\n    background: white;\r\n  }\r\n  .navbar-item:hover {\r\n    color: blue;\r\n  }\r\n  .navbar-item:focus {\r\n    color: blue;\r\n    background: white;\r\n  }\r\n</style>"
+  ],
+  "names": [],
+  "mappings": "AA4BE,UAAU,cAAC,CAAC,AACV,KAAK,CAAE,IAAI,CACX,WAAW,CAAE,GAAG,AAClB,CAAC,AACD,0BAAY,OAAO,AAAC,CAAC,AACnB,KAAK,CAAE,IAAI,CACX,UAAU,CAAE,KAAK,AACnB,CAAC,AACD,0BAAY,MAAM,AAAC,CAAC,AAClB,KAAK,CAAE,IAAI,AACb,CAAC,AACD,0BAAY,MAAM,AAAC,CAAC,AAClB,KAAK,CAAE,IAAI,CACX,UAAU,CAAE,KAAK,AACnB,CAAC"
+}
