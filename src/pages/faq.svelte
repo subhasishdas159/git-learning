@@ -6,4 +6,4 @@
 <Lead />
 <Lead2 />
 
-This is a text
+I hope this is not much of a problem.
