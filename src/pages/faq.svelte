@@ -6,4 +6,4 @@
 <Lead />
 <Lead2 />
 
-This is a text
+This is bound to cause trouble
