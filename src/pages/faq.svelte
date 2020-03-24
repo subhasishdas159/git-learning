@@ -6,9 +6,4 @@
 <Lead />
 <Lead2 />
 
-I hope this is not much of a problem. now creatinf issue!
-This is bound to cause trouble okay it already was resolved
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Modifying it now
+Fixed totally
