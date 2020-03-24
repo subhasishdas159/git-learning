@@ -3,4 +3,4 @@ This is rebase testing
 This is rebase testing 2
 
 # local purpose
-I have a purpose for local git
+I have a purpose for github
