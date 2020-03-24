@@ -11,3 +11,4 @@ Fixed totally form github
 this from newLocal branch 
 this is newB
 This is tetsing of rebase from the local side
+This is tetsing of rebase from the local side2
