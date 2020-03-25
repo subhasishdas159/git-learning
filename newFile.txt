@@ -4,8 +4,5 @@ This is rebase testing 2
 
 # local purpose
 I have a purpose for github
-<<<<<<< HEAD
 okay master
-=======
-well tag
->>>>>>> tagBranch
+This is tag test
